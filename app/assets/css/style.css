@@ -1,0 +1,167 @@
+.loader{
+ 
+    margin: auto;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    left: 50%;
+
+    width: 4rem;
+    height: 4rem;
+}
+
+.error{
+    padding: 1rem;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #dc3545;
+}
+
+.header{
+    padding: .5rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+    background-color: #f7f4f4;
+}
+
+.header > *{
+    margin: 1rem auto;
+}
+
+#main{
+    width: 100%;
+    position: relative;
+}
+
+.page-section-title{
+    width: 100%;
+    padding: 1rem;
+    background-color: #edeaea;
+    text-align: center;
+}
+
+.search-form{
+    margin: auto;
+    text-align: center;
+}
+
+.search-form input{
+    display: block;
+    margin: auto;
+    padding: .25rem;
+    border-radius: .25rem;
+    font-size: 1rem;
+}
+
+.post-card{
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 80%;
+
+    background-color: #eceff1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-card p{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+   
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.post-card :is(time, a)
+{
+    display: block;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.post-card time{
+    background-color: #e9a3a3;  
+    padding: .2rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.post-card a{
+    background-color: #a398e9;
+    padding: 1rem;
+    transition: .5s all;
+}
+
+.post-card a:hover{
+    background-color: #7366c4;
+}
+
+.post-page{
+    overflow: hidden;
+    line-height: 1.2;
+    word-break: normal;
+    hyphens: auto;
+
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 80%;
+    background-color: #eceff1;
+}
+
+.post-page > aside{
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+.post-page > hr{
+    border: thin solid #cfd8dc;
+    margin: 2rem auto;
+    width: 80%;
+}
+
+.post-page time{
+    margin: 1rem auto;
+    display: block;
+}
+
+.post-page > article{
+    padding: 0 2rem;
+}
+
+.post-page :is(img, figure, audio, iframe, video)
+{
+    margin: auto;
+    display: block;
+    max-width: 100%;
+}
+
+.post-page .wp-block-csstricks-code-block
+{
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    margin-block: 1rem;
+    border-radius: 10px;
+    overflow-x: scroll;
+}
+
+.card-img{
+    width: 100%;
+    aspect-ratio: 1.5;
+}
+
+

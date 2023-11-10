@@ -1,0 +1,6 @@
+https://www.sciencedirect.com/science/article/pii/S0160289621000477
+
+with this search feature we can select a text and then look for something selected when clicking the search button
+
+When I select a text a sticky bar will appear on top of the viewport and there will be two option: one for copying and
+another for searching
